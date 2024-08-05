@@ -3,4 +3,4 @@ t={'cource':["py","jv","dbms","cn","se"],"fee":[300,600,21,350,67],"complexity":
 d=p.DataFrame(t)
 print(d)
 c=d.groupby("cource").agg({"fee":"min"})
-print("\n",c)
+print(c)
